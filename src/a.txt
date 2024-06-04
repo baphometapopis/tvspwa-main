@@ -1,0 +1,7 @@
+API Requirement
+
+1.) endpoint https://www.tvsservice.com/Escalation_api/esclationChatList
+
+  body: esclation_id,user_ID,
+
+  changes in response add  user_COmments ,commentsraiseduserID 

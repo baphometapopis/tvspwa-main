@@ -1,0 +1,241 @@
+
+.chat-container {
+ 
+  height: 100%;
+  width: 50%;
+  background-color: #CECECE ;
+  overflow: hidden;
+}
+.chatstatusHeader{
+  background-color: #ffffff;
+  position: absolute;
+  border: 1px solid #9B9B9B;
+  width: 50%;
+  padding: 10px;
+  /* height: 15%; */
+  z-index: 2;
+}
+.chat-container2{
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+  /* flex-wrap: nowrap; */
+  /* justify-content: flex-end; */
+  padding-bottom: 65px;
+  padding-top: 70px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.chat-container2::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.chat-container2::-webkit-scrollbar-thumb {
+  background-color: #CECECE; /* Color of the scrollbar thumb */
+  border-radius: 3px; /* Rounded corners of the thumb */
+}
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.status-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: -120px; /* Adjust the top position as needed */
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+.dropdown-content div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-content div:hover {
+  background-color: #ddd;
+}
+
+/* Add any other styles you need for your specific design */
+
+ .messagecontainer{
+  z-index: 3;
+  position: absolute;
+  bottom: 1px;
+  background-color: #092E58;
+  width: 50%;
+  flex-direction: row;
+  display: flex; 
+
+  padding: 10px
+}
+  .from-message {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .message-input {
+    padding: 8px;
+    /* margin-right: 10px; */
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    width: 80%;
+
+    outline: none;
+  }
+  
+  .send-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  
+/* .box3 {
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 15px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+} */
+
+.chatUsername{
+  padding-bottom: 5px;
+  z-index: 1;
+  position: sticky;
+  padding-left: 10px;
+  font-size: 9px;
+color: #CB2020;
+}
+.chatStatus{
+  padding-bottom: 5px;
+  z-index: 1;
+  position: absolute;
+  padding-left: 10px;
+  font-size: 9px;
+top: 10px;
+right: 10px;
+font-weight: 600;
+
+}
+.box3{
+  max-width: 80%;
+  margin-right: auto;
+  margin-top: 20px;  
+  margin-left: 20px;
+    min-width: 150px;
+    
+
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #4F4F4F;
+  word-wrap: break-word;
+  padding-top: 10px;
+  font-size: 12px;
+  /* font-weight: 900; */
+  font-family: arial;
+  position: relative;}
+
+
+
+  .box4{
+    max-width: 80%;
+
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;  
+  word-wrap: break-word;
+
+  min-width: 150px;    min-height: fit-content;
+    font-size: 12px;
+
+    border-radius: 6px;
+    background: #FFEBEB;
+  color: #4F4F4F;
+  word-wrap: break-word;
+
+  padding-top: 10px;
+    font-size: 12px;
+  font-family: arial;
+    position: relative;}
+
+
+/* speech bubble 13 */
+
+.sb13:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #FFEBEB;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #FFEBEB;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+/* speech bubble 14 */
+
+.sb14:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #FFFFFF;
+  border-top: 15px solid #FFFFFF;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+@media (max-width: 768px) {
+  .chat-container {
+  width: 100%;
+  background-color: #E8F2F2;
+  }
+  .messagecontainer{
+    width: 100%
+  }
+  .chatstatusHeader{
+    position: absolute;
+    width: 100%;
+  }
+ 
+}

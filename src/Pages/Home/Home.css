@@ -1,0 +1,413 @@
+/* Home.css */
+    
+.filtermodal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.date-logo-container {
+  text-align: center;
+  margin-bottom: 15px;
+
+ 
+
+}
+.date-logo {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+ 
+
+  
+}
+.react-datepicker__input-container input {
+  padding: 8px;
+  width: 90%;
+  box-sizing: border-box;
+}
+.react-datepicker {
+  font-size: 14px;
+}
+.button-container {
+  margin-top: 15px;
+}
+/* .filtermodal-content {
+  text-align: center;
+} */
+
+.selectfilter {
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.apply-button:hover {
+  background-color: #45a049;
+}
+
+.filterbutton-container {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.top-tabs-home {
+  display: none;
+  position: relative;
+  
+}
+
+
+
+
+.filterHeader{
+  background-color: #9B9B9B;
+  margin-bottom:5px;
+  justify-content: space-between;
+  display :flex;
+  padding: 5px;
+  border-radius: 4px;
+
+  
+
+}
+.Homecnt {
+    display: flex;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw; 
+    /* line-height: 1.5; */
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .scrollable-container{
+    padding-bottom: 150px;
+ height: 100%;
+ overflow-y: auto; /* Enable vertical scrolling when the content exceeds the container height */
+
+  }
+  .mainContainer{
+    height:100%;
+    width:100%;
+    display: flex;
+    padding: 10px;
+    justify-content:center ;
+}
+
+
+.recentContainer{
+  height:84vh;
+  width:30%;
+}
+.homecnt2{
+
+    /* background-color: red; */
+    min-height: 50vh;
+    max-height: 84vh;
+    /* margin:auto 20px ; */
+    overflow: hidden;
+padding-right: 20px;
+padding-left: 20px;
+
+
+    width: 50%;
+
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 219px;
+  padding: 5px;}
+
+  .viewData{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  .chassisImg{
+    position: absolute;
+    bottom: 62px;
+    /* left: 134px; */
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+  }
+  .engineImg{
+    position: absolute;
+    bottom: 36px;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .phoneImg{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    position: absolute;
+    right: 75px;
+    bottom: 59px;
+
+  }
+  
+  
+  .homecard {
+    /* margin: 5px; */
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #9B9B9B;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%; /* Set a fixed width for the cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .statustag{
+    font-size: 10px;
+    border-radius: 8px;
+    height: fit-content;
+    padding: 1px 6px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .jobid{
+    color: #6D6D6D;
+    margin: 2px;
+    font-size: 14px;
+
+  }
+  .escalatedby{
+    color: #6D6D6D;
+    font-size: 10px;
+
+
+  }
+  .supporticon{
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+
+  }
+  
+
+  .homesearch-container {
+    position: relative;
+    /* background-color: red; */
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Add padding to the search container */
+    margin-bottom: 20px; /* Add margin to separate from other content */
+  }
+  
+  .search-dropdown {
+    margin-right: 10px;
+  }
+  .tobabel{
+    color: #696969;
+    font-size: 12px;
+    position: absolute;
+    left: 39px;
+    bottom: 13px
+
+  }
+  
+  .search-input {
+
+    padding: 10px;
+    border: 0.5px solid #9B9B9B;
+width: 60%;    margin: 10px;
+  }
+  .creationdate{
+    color: #696969;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+right: 16px;
+
+
+  }
+  .cardic_name{
+    color: #696969;
+    font-size: 12px;
+    font-weight: 600;
+    position:absolute;
+    right: 17px;
+    bottom: 33px;
+
+
+  }
+  .card_mobile_no{
+    color: #696969;
+    font-size: 12px;
+    font-weight: 600;
+    position:absolute;
+    right: 17px;
+    bottom: 58px;
+  }
+
+  .card_engine_no{
+    color: #696969;
+    font-weight: 600;
+    left:39px;
+bottom: 36px;
+    font-size: 12px;
+    position: absolute;
+
+
+
+  }
+ 
+  .card_chassis_no{
+    position: absolute;
+    bottom: 61px;
+    left: 37px;    color: #696969;
+    font-weight: 600;
+
+    font-size: 12px;
+  }
+  .search-button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .filterContainer{
+    display: flex;
+    gap: 5px;
+  }
+
+  @media (max-width: 1073px) {
+    .homecnt2{
+      width: 100%;
+
+    }  
+    
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .filterContainer{
+      display: block;
+    }
+    .homecnt2{
+      width: 100%;
+
+    }
+    .homesearch-container {
+      flex-direction: column;
+    }
+  .scrollable-container{
+    padding-bottom: 500px;
+  }
+    .search-input {
+      width:95%;
+      margin-top: 10px; /* Add space between input and button in mobile view */
+    }
+  }
+  .homecard.slideOut {
+    animation: slideOut 0.5s ease forwards;
+  }
+  
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .top-tabs-home{
+      cursor: pointer;
+      user-select: none;
+      margin-bottom: 5px;
+      display: flex;
+    
+      width: fit-content;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-right: 5px;
+      background-color: #fff;
+      transition: background-color 0.3s ease;
+      /* transform: rotate(-90deg); Rotate the tabs */    }
+  
+      .top-tabs-home.active {
+        background-color: #CB2020;
+        color: #fff;
+      }
+      
+      /* Add hover effect for better user experience */
+      .top-tabs-home:hover {
+        background-color: #e0e0e0;
+      }
+
+      .onlyDesktop{
+    display: none;
+      }
+      
+
+      .recentContainer{
+        height:84vh;
+        width:100%;
+      }
+    
+    
+  }
