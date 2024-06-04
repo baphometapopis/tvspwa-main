@@ -512,7 +512,7 @@ setAppliedFilter(filterdata);
             </div>
           </div>
         )}
-
+ 
         <div className="top-tabs-home">
           <div
             className={`top-tab ${selectedTab === "cases" ? "active" : ""}`}
